@@ -1,1 +1,25 @@
 Atividade 1 de Lógica de Programação - Mentoria Tech - usando o site OnlineGDB
+
+
+Comandos do Git usando o cmd
+# Dentro na pasta do seu projeto digite:
+git init
+# Saber o estatus git dentro do projeto, digite:
+git status
+# Adicionar o arquivo ou diretório, dizer qual será encaminhado ou sincronizado com o github:
+git add . ou git add nome do arquivo ou do diretório
+# Gravar os arquivos para serem enviados para o repositório no github:
+git commit -m "Alguma descrição mensagem"
+# Ver o histório das alterações, quem fez e quando foram feitas:
+git log
+# Por fim enviar o projeto commit para o repositorio no github:
+git remote add origin https://github.com/nome-do-usuario/nome-do-repositorio.git
+git push -u origin master
+
+# Quando fizer alteração no projeto, deve repetir os comandos:
+git status
+git add . ou git add nome do arquivo modificado
+git status
+git commit -m "Alguma descrição da mudança"
+git log
+git push
